@@ -1,0 +1,28 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.container main .art-display img{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left: 0;
+}
+
+.container{
+    width:90%;
+}
+.container aside{
+    width: 6%;
+    height: 100%;
+    position: fixed;
+    right: 1%;
+}
+
+.container aside nav{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 2%;
+}

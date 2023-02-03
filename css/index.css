@@ -1,3 +1,13 @@
+/* 
+COLOR PALETTE
+#F2D649
+#A67E08
+#D99518
+#F20505
+#0D0D0D
+*/
+
+
 html{
     scroll-behavior: smooth;
     margin: 0;
@@ -7,8 +17,9 @@ html{
     line-height: 25px;
     
 }
-a{
-    
+a:link, :visited, :active{
+    color: white;
+    text-decoration: none;
 }
 
 .container{
@@ -20,8 +31,15 @@ a{
 .container .navbar{
     width: 100%;
     min-height: 5vw;
-    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
     display: flex;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 5;
 }
 
 .container .navbar .navbar-img{
@@ -33,12 +51,19 @@ a{
 }
 
 .container .navbar nav{
-   width: 60%;
-   text-align: center;
+    width: 50%;
+    text-align: center;
+    margin: 1vw;
+    border-color: #A67E08; 
+    border-style: none solid solid solid;
+    border-width: 2px;
+    border-radius: 10px;
 }
 
 .container .navbar nav a{
-   
+   padding: 10px;
+   margin: 10px;
+   font-size: 20px;
 }
 
 .container main .art-display .content-100{
@@ -60,10 +85,34 @@ a{
     height: 60vw;
 }
 
+.container main .awards-display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.container main .awards-display .score-container{
+    width: 45%;
+}
+
+.container main .awards-display .score-container .critic-score{
+    width: 80%;
+    text-align: center;
+    margin: 4%;
+    padding: 1%;
+    border-color: #A67E08; 
+    border-style: none none solid none;
+    border-width: 1px;
+    border-radius: 30px;
+}
+
 .container main .consoles-display .platform-container{
     display: flex;
     flex-wrap: wrap;
-}
+    justify-content: center;
+  
+}   
+
 
 .container main .consoles-display .platform-container  .platform{
     padding: 1vw;

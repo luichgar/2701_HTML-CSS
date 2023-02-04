@@ -25,8 +25,8 @@ a:link, :visited, :active{
 .container .navbar{
     width: 100%;
     min-height: 5vw;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 6%;
+    padding-right: 7%;
     margin-top: min(3vw, 20px);
     display: flex;
     position: fixed;
